@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+<body class="h-14 bg-gradient-to-r from-red-500 to-yellow-500">
+
+  <header
+  style="background-color: white; height: 65px;">
+    <nav class="flex justify-between items-center w-[92%] mx-auto">
+    <div class="nav-links md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[20%] md:w-auto w-full flex items-center px-5">
+        <ul class="flex md:flex-row flex-col md:items-left md:gap-[4vw] gap-8 position my-4"
+        style="font-size: 19px;">
+            <li>
+                <a class="rounded-full hover:bg-blue-600 p-3" href="#">product</a>
+            </li>
+            <li>
+                <a class="rounded-full hover:bg-blue-600 p-3" href="#">solution</a>
+            </li>
+            <li>
+                <a class="rounded-full hover:bg-blue-600 p-3" href="#">resource</a>
+            </li>
+            <li>
+                <a class="rounded-full hover:bg-blue-600 p-3" href="#">developer</a>
+            </li>
+            <li>
+                <a class="rounded-full hover:bg-blue-600 p-3" href="#">pricing</a>
+             </li>
+       
+            
+
+        </ul>
+    </div>
+    <form style="height: 50px; width: 550px;">   
+        <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+        <div class="relative">
+            <!--icon search-->
+            <div class="absolute inset-y-0 left-1 flex items-center pl-2 pointer-events-none">
+                <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+            <!--bar search-->
+            <input type="search" id="default-search" class="block w-full text-sm pl-3 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+            mx-[7%] my-[1.8%]"
+            style="height: 44px; width: 200px;" placeholder="asdadw" class="mx-[2%]">
+            <!--tombol search-->
+            <button type="submit" class="text-white absolute right-[40%] my-[-9.1%] bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+        </div>
+    </form>
+    <div>
+        <button class="flex bg-[#a6c1ee] text-white px-6 py-2 left-3 justify-between rounded-[50px] hover:bg-blue-600" >sign in</button>
+        <ion-icon onclick="onToogleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+    </div>
+    
+    
+    
+    
+</nav>
+  </header>
+  
+  <div class="mx-[10%] my-[7%] text-black text-8xl"
+  style="font-family: canit;">
+    <p>Payment</p>
+    <p>Infrastructure</p>
+    <p>for the internet</p>
+  </div>
+  <div class="mx-[10.5%] my-[-6%] text-white">
+    <p>Millions of companies of all sizes - from startups
+    to Fortune
+    </p> 
+    <p> 500s-use Stripe's software and APIDs to accept
+    payments,
+    </p>
+    <p> send payouts, and manage their businesses online.
+    </p>
+  </div>
+
+</body>
+</html>
